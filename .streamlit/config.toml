@@ -1,0 +1,9 @@
+# Reduces noisy tracebacks when Streamlit inspects installed packages (e.g. `transformers`).
+# Install `torchvision` in requirements.txt so those lazy imports resolve if still scanned.
+
+[server]
+fileWatcherType = "poll"
+
+[runner]
+# Avoid re-executing on every site-packages touch during dev
+fastReruns = true

@@ -1,0 +1,11 @@
+.venv
+__pycache__/
+*.pyc
+.env
+vector_db/*
+!vector_db/.gitkeep
+models/
+logs/
+data/raw/*
+!data/raw/.gitkeep
+.idea/
