@@ -2,6 +2,9 @@
 # Install `torchvision` in requirements.txt so those lazy imports resolve if still scanned.
 
 [server]
+port = 10000
+address = "0.0.0.0"
+headless = true
 fileWatcherType = "poll"
 
 [runner]
